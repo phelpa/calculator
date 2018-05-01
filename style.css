@@ -1,0 +1,39 @@
+#container {
+  display : grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+  height: 600px;
+  width: 600px;
+  
+}
+
+
+#display {
+  display: flex;
+  grid-column: 1 / span 4;
+  border-style: solid;
+  font-size: 3rem; 
+  font-weight: bold;  
+  
+}
+
+.item {
+  
+font-family: 'Orbitron', sans-serif;  
+font-size: 1.2rem; 
+font-weight: bold; 
+color: white;
+background-color: darkslateblue;
+border-radius: 10px;
+  
+}
+
+.operand {
+  
+font-family: 'Orbitron', sans-serif;  
+font-size: 1.2rem; 
+font-weight: bold; 
+color: white;
+background-color: darkslateblue;
+border-radius: 10px;
+  
+}
